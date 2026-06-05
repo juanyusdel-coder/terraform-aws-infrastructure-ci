@@ -2,9 +2,7 @@
 
 ## Overview
 
-This project demonstrates Infrastructure as Code (IaC) principles using Terraform and AWS, combined with GitHub Actions for Continuous Integration.
-
-The repository provisions AWS resources and automatically validates Terraform configurations on every push and pull request.
+This project demonstrates Infrastructure as Code (IaC) using Terraform and AWS, with automated validation through GitHub Actions.
 
 ## Technologies
 
@@ -12,37 +10,27 @@ The repository provisions AWS resources and automatically validates Terraform co
 - AWS
 - GitHub Actions
 - Git
-- Linux
 
-## Features
+## CI Pipeline
 
-- Infrastructure as Code
-- Automated Terraform validation
-- CI pipeline
-- Modular structure
-- Documentation
+The pipeline automatically:
+
+- Checks Terraform formatting
+- Initializes Terraform
+- Validates Terraform configuration
 
 ## Project Structure
 
 terraform/
-.github/workflows/
 docs/
-
-## CI Pipeline
-
-The GitHub Actions workflow performs:
-
-1. Terraform fmt
-2. Terraform init
-3. Terraform validate
+.github/workflows/
 
 ## Future Improvements
 
 - VPC
 - Security Groups
-- Remote State
 - S3 Backend
-- DynamoDB State Locking
+- Remote State Management
 
 ## Author
 
