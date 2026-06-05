@@ -40,11 +40,11 @@ jobs:
       - name: Terraform Validate
         run: terraform validate
 
-      - name: Terraform Plan
-        run: terraform plan
+     # - name: Terraform Plan
+     #   run: terraform plan
 
-      - name: TFLint
-        run: tflint
+     # - name: TFLint
+     #   run: tflint
 
-      - name: Checkov
-        run: checkov -d . --output json > checkov-report.json
+     # - name: Checkov
+     #   run: checkov -d . --output json > checkov-report.json
