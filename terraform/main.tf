@@ -20,7 +20,7 @@ resource "aws_security_group" "xterra_sg" {
   description = "Security group for TerraformPortfolioServer"
   vpc_id      = data.aws_vpc.default.id
 
-# Ingress rules for HTTP and SSH
+  # Ingress rules for HTTP and SSH
   ingress {
     description = "HTTP"
     from_port   = 80
@@ -37,7 +37,7 @@ resource "aws_security_group" "xterra_sg" {
     cidr_blocks = ["0.0.0.0/0"]
   }
 
-# Egress rule to allow all outbound traffic
+  # Egress rule to allow all outbound traffic
   egress {
     from_port   = 0
     to_port     = 0
