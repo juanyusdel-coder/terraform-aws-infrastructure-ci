@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project demonstrates Infrastructure as Code (IaC) using Terraform and AWS, with automated validation through GitHub Actions. 
+This project demonstrates Infrastructure as Code (IaC) using Terraform and AWS, with automated validation through GitHub Actions.
 
 ## Technologies
 
@@ -10,7 +10,6 @@ This project demonstrates Infrastructure as Code (IaC) using Terraform and AWS, 
 - AWS
 - GitHub Actions
 - Git
-- EC2
 - VPC
 - Security Groups
 - S3 Backend
@@ -37,5 +36,5 @@ docs/
 
 ## Author
 
-Yusdel Concepcion
+Yusdel Juan Concepcion
 Infrastructure & DevOps Engineer
